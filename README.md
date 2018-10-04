@@ -2,7 +2,7 @@ CoolNode Core 1.1.1.1
 =================================================
 
 <p align="center">
-  <img src="http://coolnode.cloud/assets/images/trypto_logo_green.png" width="256" />
+  <img src="https://github.com/famousnode/coolnode/raw/master/src/qt/res/images/splash.png" width="256" />
 </p>
 
 
