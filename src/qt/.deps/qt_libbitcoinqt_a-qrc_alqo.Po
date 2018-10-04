@@ -1,0 +1,4 @@
+qt/qt_libbitcoinqt_a-qrc_vivaldi.o: qt/qrc_vivaldi.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

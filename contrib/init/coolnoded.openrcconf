@@ -1,0 +1,26 @@
+# /etc/conf.d/vivaldid: config file for /etc/init.d/vivaldid
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/coolnode/coolnode.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/vivaldid"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/vivaldid.pid"
+
+# Where to write vivaldid data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/vivaldid"
+
+# User and group to own vivaldid process
+#BITCOIND_USER="coolnode"
+#BITCOIND_GROUP="coolnode"
+
+# Path to vivaldid executable
+#BITCOIND_BIN="/usr/bin/vivaldid"
+
+# Nice value to run vivaldid under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

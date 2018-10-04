@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/vivaldi_bg.qm</file>
+        <file alias="de">locale/vivaldi_de.qm</file>
+        <file alias="en">locale/vivaldi_en.qm</file>
+        <file alias="es">locale/vivaldi_es.qm</file>
+        <file alias="fi">locale/vivaldi_fi.qm</file>
+        <file alias="fr">locale/vivaldi_fr.qm</file>
+        <file alias="it">locale/vivaldi_it.qm</file>
+        <file alias="ja">locale/vivaldi_ja.qm</file>
+        <file alias="pl">locale/vivaldi_pl.qm</file>
+        <file alias="pt">locale/vivaldi_pt.qm</file>
+        <file alias="ru">locale/vivaldi_ru.qm</file>
+        <file alias="sk">locale/vivaldi_sk.qm</file>
+        <file alias="sv">locale/vivaldi_sv.qm</file>
+        <file alias="vi">locale/vivaldi_vi.qm</file>
+        <file alias="zh_CN">locale/vivaldi_zh_CN.qm</file>
+        <file alias="zh_TW">locale/vivaldi_zh_TW.qm</file>
+    </qresource>
+</RCC>

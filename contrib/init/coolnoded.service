@@ -1,0 +1,26 @@
+[Unit]
+Description=COOL's distributed currency daemon
+After=network.target
+
+[Service]
+User=coolnode
+Group=coolnode
+
+Type=forking
+PIDFile=/var/lib/vivaldid/vivaldid.pid
+
+ExecStart=/usr/bin/vivaldid -daemon -pid=/var/lib/vivaldid/vivaldid.pid \
+          -conf=/etc/coolnode/coolnode.conf -datadir=/var/lib/vivaldid
+
+ExecStop=-/usr/bin/coolnode-cli -conf=/etc/coolnode/coolnode.conf \
+         -datadir=/var/lib/vivaldid stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
